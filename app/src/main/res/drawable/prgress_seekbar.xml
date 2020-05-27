@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="20dp"/>
+
+            <gradient
+                android:angle="270"
+                android:endColor="#F4F7FB"
+                android:startColor="#F4F7FB" />
+        </shape>
+    </item>
+
+    <item>
+        <clip
+            android:drawable="@drawable/ic_launcher_background"
+            >
+
+            <shape>
+                <corners android:radius="20dp"/>
+
+
+
+            </shape>
+
+        </clip>
+
+    </item>
+
+</layer-list>
